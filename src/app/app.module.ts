@@ -8,8 +8,15 @@ import { CoursesComponent } from './pages/courses/courses/courses.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { LogoComponent } from './shared/logo/logo.component';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatIconModule,
+  ],
   declarations: [
     CoursesComponent,
     AppComponent,
@@ -17,7 +24,6 @@ import { LogoComponent } from './shared/logo/logo.component';
     FooterComponent,
     LogoComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
