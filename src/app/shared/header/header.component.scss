@@ -15,10 +15,16 @@
 }
 .header__user-info {
   color: white;
+  display: flex;
+  align-items: center;
+  gap: 4px;
 }
 
 .header__logout-btn {
   background-color: transparent;
   color: white;
   border: none;
+  display: flex;
+  align-items: center;
+  gap: 4px;
 }
